@@ -1,0 +1,19 @@
+{
+  "name": "jasmin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "json-server --watch api/data.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jquery": "^3.3.1",
+    "json-server": "^0.12.2",
+    "node-fetch": "^2.1.2"
+  }
+}
